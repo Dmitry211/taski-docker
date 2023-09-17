@@ -162,7 +162,6 @@ jobs:
           push: true
           # Тут вместо username должен быть ваш логин на Docker Hub
           tags: dmitryzazulin/taski_gateway:latest
-
 # Деплой проекта на сервер
   deploy:
     runs-on: ubuntu-latest
